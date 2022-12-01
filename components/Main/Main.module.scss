@@ -1,0 +1,97 @@
+.container {
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    position: relative;
+    .logo {
+       margin-bottom: 330px;
+        h5 {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 400;
+            color: white;
+        }
+    img {
+        width: 420px;
+        height: 185px;
+    }
+   
+    }
+    .contract {
+        position: absolute;
+        bottom: 15%;
+        img {
+            position: relative;
+            width: 520px;
+            height: 150px;
+            
+        }
+        div {
+            position: absolute;
+            top: 0;
+            padding: 35px 25px 5px 40px;
+            p {
+                font-size: 24px;
+                color: white;
+            }
+            h3 {
+                margin-left: 20px;
+                font-size: 30px;
+                color: white;
+                font-weight: 400;
+            }
+            .buy {
+                margin-left: 270px;
+                margin-top: 19px;
+                font-size: 36px;
+                cursor: pointer;
+            }
+        }
+    }
+    .bottom {
+        img {
+            width: 100%;
+            height: 63px;
+            position: absolute;
+            bottom: -3%;
+            left: 0;
+            z-index: 3;
+            object-fit: cover;
+        }
+        .join {
+            height: 63px;
+            position: absolute;
+            bottom: -4.5%;
+            left: 12%;
+            display: flex;
+            gap: 35%;
+            width: 80%;
+            div {
+                width: 30%;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+
+               p {
+                color: #FAFF00;
+                font-size: 36px;
+                z-index: 3;
+               } 
+            }
+        }
+    }
+    .cat {
+        width: 637px;
+        height: 586px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+}

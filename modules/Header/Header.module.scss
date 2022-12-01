@@ -1,0 +1,38 @@
+.container {
+    padding: 15px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        width: 107px;
+        height: 53px;
+        margin-top: 20px;
+    }
+    .links {
+        display: flex;
+        gap: 45px;
+        a {
+            font-size: 26px;
+            color: white;
+            text-decoration: none;
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+        .active {
+            color: #FAFF00;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: '';
+                width: 83px; 
+                height: 10px;
+                transform: skew(50deg);
+                background: white;
+                top: 0;
+                margin-right: 30px;
+                margin-bottom: 20px; 
+                left: 0;
+            }
+        }
+    }
+}

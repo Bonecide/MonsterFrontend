@@ -1,0 +1,108 @@
+.container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+
+        .issue {
+            position: relative;
+            display: flex;
+            gap: 105px;
+            .img {
+                img {
+                    width: 600px;
+                    height: 600px;
+                    object-fit: contain;
+                }
+                .greenBlock {
+                    background-image: url('../../public/img/greenBlock.svg');
+                    background-size: 100% 100%;
+                    position: absolute;
+                    bottom: -5%;
+                    width: 500px;
+                    height: 130px;
+                    left: 10%;
+                    padding: 35px 150px;
+                    z-index: 2;
+                    p {
+                        font-size: 50px;
+                        color: white;
+                    }
+                }
+            }
+            .info {
+                margin-top: 100px;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                h3 {
+                    font-size: 50px;
+                    font-weight: 400;
+                    color: white;
+                }
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    list-style-type: none;
+                    li {
+                        font-size: 36px;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .diagrammBorder {
+            align-self: center;
+            margin:14px;
+            position: relative;
+            width: 1000px;
+            height: 550px;
+            background-image: linear-gradient(248.36deg, rgba(0, 0, 0, 0.5) -8.27%, rgba(0, 0, 0, 0.175) 53.81%, rgba(0, 0, 0, 0.5) 107.45%) ;
+            clip-path: polygon(100px 0,100% 0,100% calc(100% - 100px), calc(100% - 100px) 100%,0 100%,0 100px);
+                .diagramm {
+                    position: absolute;
+                    top: 10px;
+                    left: 8px; 
+                    width: 983px;
+                    height: 533px;
+                    clip-path: polygon(100px 0,100% 0,100% calc(100% - 100px), calc(100% - 100px) 100%,0 100%,0 100px);
+                    background-image: linear-gradient(103.28deg, rgba(0, 77, 3, 0.8) 3.03%, rgba(0, 77, 3, 0.096) 48.6%, rgba(0, 77, 3, 0.8) 95.14%);
+                    display: flex;
+                    align-items: center;
+                    gap: 150px;
+                    padding: 130px 90px;
+                    .Tokenomic {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 18px;
+                        width: 40%;
+                    div {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        img {
+                            width: 40px;
+                            height: 40px;
+                        }
+                        p {
+                            font-size: 35px;
+                            color: white;
+                        }
+                    }
+                }
+                .circle {
+                    width: 410px;
+                    height: 410px;
+                }
+                }
+        }
+        .bootom {
+            width: 100%;
+            height: 63px;
+            position: absolute;
+            bottom: -1%;
+            left: 0;
+            z-index: 0;
+            object-fit: cover;
+        }
+}

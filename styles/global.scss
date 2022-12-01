@@ -1,0 +1,13 @@
+$font-path: "../fonts" !default;
+@font-face{
+   font-family: "JasmineUPC";
+  src: url('#{$font-path}/JasmineUPC.ttf');
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JasmineUPC";
+    scroll-behavior: smooth !important;
+}
