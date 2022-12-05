@@ -21,8 +21,8 @@ export default function Header() {
             link: '#road'
         },
         {
-            title : "CONTRACT",
-            link: '#contract'
+            title : "CONTACT",
+            link: '#contact'
         },
     ]
     
@@ -32,7 +32,7 @@ export default function Header() {
                 <IMG src={'/img/logo.svg'} className={s.logo} />
                 <div className={s.links}>
                     {links.map((info,idx) => (
-                        <Link className={info.link === router.pathname && s.active} key={`linkN${idx}`} href={info.link}>
+                        <Link className={info.link === router.pathname ? s.active : undefined} key={`linkN${idx}`} href={info.link}>
                                 {info.title}
                         </Link>
                     ))}

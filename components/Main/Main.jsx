@@ -1,6 +1,5 @@
 import IMG from '../../modules/IMG/IMG'
 import s from './Main.module.scss'
-import Header from './../../modules/Header/Header';
 
 export default function Main() {
 
@@ -13,7 +12,7 @@ export default function Main() {
                 <IMG src={'/img/logo.svg'}/>
 
             </div>
-            <IMG className={s.cat} src={'/img/neonCat.svg'}/>
+            <IMG className={s.cat} src={'/img/neonicCat.gif'}/>
             <div className={s.contract}>
                  <IMG src="/img/contract.svg" alt="" />
                  <div>
