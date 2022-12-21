@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MonsterToken.sol": "Context"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MonsterToken.sol": {
+			"keccak256": "0x92d45268a4407a0aacec5e34cbc43e6505ccb0a7c436cde14a4198d068a5c3b7",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://679c20bfd731df25c8f4c6fb6980a99a231b988a921f9c74afcfbecbd0e2e17b",
+				"dweb:/ipfs/QmTDPGFcsRTNqFsUzDNnxKWYBCqZVx5VZNKQBmeaUAAVdz"
+			]
+		}
+	},
+	"version": 1
+}
