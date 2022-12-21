@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.12+commit.27d51765"
+		"version": "0.8.17+commit.8df45f5f"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,9 +18,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MonsterToken.sol": "Address"
+			"frontend/contracts/MonsterToken.sol": "Address"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MonsterToken.sol": {
-			"keccak256": "0x92d45268a4407a0aacec5e34cbc43e6505ccb0a7c436cde14a4198d068a5c3b7",
-			"license": "Unlicensed",
+		"frontend/contracts/MonsterToken.sol": {
+			"keccak256": "0xd0e87c682b8dc6f353e6ce943d5f93139823b3768a6ac300a571c31331bed88f",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://679c20bfd731df25c8f4c6fb6980a99a231b988a921f9c74afcfbecbd0e2e17b",
-				"dweb:/ipfs/QmTDPGFcsRTNqFsUzDNnxKWYBCqZVx5VZNKQBmeaUAAVdz"
+				"bzz-raw://6363d80697822f23ca05125fd250aabcedf24438b09fe181a2dfc0fb81fe266a",
+				"dweb:/ipfs/QmZDiWJiD8ayuoHSB8HVe9DrnGUheUN1J72ns3VjrVmSDT"
 			]
 		}
 	},
